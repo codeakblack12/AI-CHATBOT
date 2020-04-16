@@ -1,0 +1,95 @@
+{"intents":[
+      {"tag": ["good_morning"],
+        "patterns": ["good morning", "morning"],
+        "responses": ["good morning whats up?", "good morning...how was your night?","morning whats up?", "morning...how was your night?", "morning"]
+      },
+      {"tag": ["good_afternoon"],
+        "patterns": ["good afternoon", "afternoon"],
+        "responses": ["good afternoon whats up?", "good afternoon...how's your day going?","afternoon whats up?", "afternoon...how's your day going?", "afternoon"]
+      },
+      {"tag": ["good_evening"],
+        "patterns": ["good evening", "evening"],
+        "responses": ["good evening whats up?", "good evening...how was your day?","evening whats up?", "evening...how was your day?", "evening"]
+      },
+      {"tag": ["greeting"],
+        "patterns": ["Hi", "Hey", "yo", "Hello", "Oga", "guy", "my good friend"],
+        "responses": ["Hello!", "hey whats up?", "hey hey","yo... whats up?", "whats up?"]
+      },
+      {"tag": ["greeting2"],
+        "patterns": ["Whats up","How far","how are you"],
+        "responses": ["Good, you?", "Good good, you?", "I'm alright, you?", "I'm just there o, you?", "I just dey, what about you?","I'm just managing, you?", "nothing much o, you?"]
+      },
+      {"tag": ["greeting7"],
+        "patterns": ["What about yours","good, yours?","yours", "what about you", "what of yours"],
+        "responses": ["Good, thanks", "Good good, thanks", "alright", "I'm just there o","I'm just managing"]
+      },
+      {"tag": ["greeting3"],
+        "patterns": ["i am fine", "i am alright", "i am good", "i dey"],
+        "responses": ["cool", "nice", "your day?"]
+      },
+      {"tag": ["greeting4"],
+        "patterns": ["fine", "alright", "good", "just dey", "just there", "nothing"],
+        "responses": ["cool", "nice"]
+      },
+      {"tag": ["greeting5"],
+        "patterns": ["boring", "dead"],
+        "responses": ["cool", "nice"]
+      },
+      {"tag": ["greeting6"],
+        "patterns": ["fuck", "messed", "anyhow"],
+        "responses": ["lol, mad o... what happened", "lol, wetin happen?"]
+      },
+      {"tag": ["greeting8"],
+        "patterns": ["plans", "what do you want to do", "whats on your mind"],
+        "responses": ["nothing atall", "i'm blank", "sleep"]
+      },
+      {"tag": ["whoisthis"],
+        "patterns": ["who is this?", "who am i talking to","who be this"],
+        "responses": ["lol... who else", "your dads child", "lol"]
+      },
+      {"tag": ["love"],
+        "patterns": ["❤️"],
+        "responses": ["❤️", "❤️❤️", "❤️❤️❤️❤️"]
+      },
+      {"tag": ["bye"],
+        "patterns": ["bye", "later", "gtg", "we go see", "ltr", "got to go", "goodbye", "can't talk", "i'm sleepy"],
+        "responses": ["ok, no wahala"]
+      },
+      {"tag": ["gratitude"],
+        "patterns": ["thanks", "thank you"],
+        "responses": ["you're welcome", "no wahala", "no qualms"]
+      },
+      {"tag": ["hate"],
+        "patterns": ["hate you"],
+        "responses": ["lol hate you too", "lol love you too", "lol why now", "lol ahah... what i do?"]
+      },
+      {"tag": ["okstuff"],
+        "patterns": ["nvm", "never mind"],
+        "responses": ["oh okay", "ok cool", "ok"]
+      },
+      {"tag": ["nvmstuff"],
+        "patterns": ["dont understand", "not understanding", "lost", "what happened"],
+        "responses": ["lol nvm", "lol just forget"]
+      },
+      {"tag": ["confirmation"],
+        "patterns": ["yes", "sure", "yeah", "okay", "ok", "K", "good"],
+        "responses": ["yeah", "cool", "dope", "mad", "💪🏽💪🏽"]
+      },
+      {"tag": ["declination"],
+        "patterns": ["no", "nah", "atall", "at all"],
+        "responses": ["hmm...ok", "no wahala sha"]
+      },
+      {"tag": ["apology"],
+        "patterns": ["no vex", "sorry"],
+        "responses": ["no wahala... thanks", "no wahala sha", "thanks", "💪🏽💪🏽"]
+      },
+      {"tag": ["unknowns"],
+        "patterns": ["V_oiceN_ote"],
+        "responses": ["sorry, can't see this... my whatsapp is having issues. abeg can you type", "cant see this...can you just type what you said"]
+      },
+      {"tag": ["unknownss"],
+        "patterns": ["P_icture","V_ideo"],
+        "responses": ["sorry, can't see this... whatsapp issues. abeg can you explain it", "cant see this...can you just explain what's on it"]
+      }
+]
+}
